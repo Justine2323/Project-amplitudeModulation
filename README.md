@@ -1,3 +1,3 @@
 # Communication-2-Modulation-and-Coding-Techniques-Laboratory
-##📌 Overview  
+## 📌 Overview  
 This repository contains laboratory experiments for Communication 2, focuses on modulation, demodulation and coding techniques. Each experiment includes procedures, results, analysis and theoretical background such as analog and digital modulation schemes, basic coding concepts, and performance analysis to enhance understanding of signal transmission and reliability in communication systems. 
