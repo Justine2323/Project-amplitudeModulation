@@ -1,5 +1,5 @@
 ## 🔍 Experiment Summary
-This laboratory experiment demonstrates hands on experiments on how to use oscilloscope with laboratory Manual & Emona Telecoms - Trainer 101 to learn about the concepts of communication and telecommunications principles. Following the block diagram and step by step procedure to attain the expected output such as sine wave & digital wave.
+This laboratory experiment demonstrates hands on experiments on how to use oscilloscope with laboratory Manual & Emona Telecoms - Trainer 101 to learn about the concepts of communication and telecommunications principles. Following the block diagram and step by step procedure to attain the expected output which is  digital wave.
 ## 🔌 Block Diagram
 <img width="886" height="559" alt="image" src="https://github.com/user-attachments/assets/357e7ef8-39ad-401f-817c-894dc635f568" />
 
