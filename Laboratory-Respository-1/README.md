@@ -12,8 +12,8 @@ This Project Experimental was investigates the theoretical principles and practi
 - Laptop
 
 ## Table of Contents
-- [Part 1 : Introduction to Oscilloscope ](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/edit/main/Laboratory-Respository-1/README.md#part-1--introduction-to-oscilloscope)
-- 
+- [Part 1 : Introduction to Oscilloscope](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/edit/main/Laboratory-Respository-1/README.md#part-1--introduction-to-oscilloscope)
+- [Part 2 : Introduction to Emona Trainer 101 (ETT-101)](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/blob/main/Laboratory-Respository-1/README.md#part-2--introduction-to-emona-trainer-101-ett-101)
 - Part 3 :
 - Part 4 :
 
@@ -197,15 +197,52 @@ The Emona Telecoms-Trainer 101 (ETT-101) is an educational communication system 
 
 </details>
 
-## Part 3 :
+## Part 3 : Signal Manipulation using Adder Module
+The Adder Module is used to combine two or more input signals into a single output signal by performing signal addition. In this part of the experiment, the module demonstrates how multiple signals interact when added together, allowing observation of changes in amplitude and waveform shape. This process is essential in communication systems where signal mixing, modulation, and summation are required.
+
+### 3.0 Adder Module Equation
+
+The Adder Module was used to combine two input signals into a single output signal.  
+The output of the adder is given by:
+
+$$
+V_{out}(t) = G \cdot V_a(t) + g \cdot V_b(t)
+$$
+
+where:
+- $V_a(t)$ and $V_b(t)$ are the input signals  
+- $G$ and $g$ are the respective gain factors applied to each input  
+
+This equation shows that the output signal is a weighted sum of the input signals, depending on the selected gain settings of the Adder Module.
+
+
+
+
+
 ### 3.1 Block Diagram
 <details>
 <summary> View Part 3 Setups</summary>
 
 ![Part3_3 1setupaddereqn](https://github.com/user-attachments/assets/ed218ccc-6a89-4449-bd82-112e4b236517)
+<p align="center">
+  <em>Figure 3.1.0: Wiring Connection for Adder Module setup</em>
+</p>
+
 ![Part3_3 1addereqndiagram](https://github.com/user-attachments/assets/13fa6524-9ee8-4356-b286-2f362c702c40)
+<p align="center">
+  <em>Figure 3.1.1: Adder Module block diagram.</em>
+</p>
+
 ![Part3_3 2setupadderwithphaseshiftereqn](https://github.com/user-attachments/assets/eeb2cbf0-49d6-4e4e-8574-b610e4e742d4)
+<p align="center">
+  <em>Figure 3.1.2: Wiring Connection from Adder Module with Phase Shift setup.</em>
+</p>
+
 ![Part3_3 2adderwithphaseshiftereqndiagram](https://github.com/user-attachments/assets/7b75ec72-0fae-4b6c-ae9f-1f9916a9f450)
+<p align="center">
+  <em>Figure 3.1.2: The Adder Module with Phase Shift block diagram.</em>
+</p>
+
 
 </details>
 
@@ -214,7 +251,10 @@ The Emona Telecoms-Trainer 101 (ETT-101) is an educational communication system 
 <summary> View Part 3 Results</summary>
 
 ![Part3_resultsfig1modeleq](https://github.com/user-attachments/assets/5e685713-6e69-43d1-bbfb-2972b00d3e76)
-![Part3_resultsfig2modeleq](https://github.com/user-attachments/assets/787105f7-d7e2-412f-ac96-8a2e88aad6da)
+<p align="center">
+  <em>Figure 3.2.0: Shows that the two of sinewaves are unstable.</em>
+</p>
+
 
 </details>
 
