@@ -13,20 +13,20 @@ This Project Experimental was investigates the theoretical principles and practi
 
 ## Table of Contents
 - [Part 1 : Introduction to Oscilloscope ](https://github.com/Justine2323/Communication-2-Modulation-and-Coding-Techniques-Laboratory/edit/main/Laboratory-Respository-1/README.md#part-1--introduction-to-oscilloscope)
-- Part 2 :
+- 
 - Part 3 :
 - Part 4 :
 
 ## Part 1 : Introduction to Oscilloscope
 As an electronics engineering (ECE) student, the oscilloscope is one of the most essential instruments in this field, especially for observing and analyzing electrical signals. It allows the visualization of voltage variations with respect to time, making it possible to study signal amplitude, frequency, waveform shape, and timing characteristics. In communication system experiments, the oscilloscope plays a crucial role in verifying signal behavior, troubleshooting circuit connections, and confirming proper system operation.
-## 1.0 Horizontal & Vertical Details
-### 1.0.0. Horizontal (Time Base)
+### 1.0 Horizontal & Vertical Details
+#### 1.0.0. Horizontal (Time Base)
 - Controls the **time scale** of the waveform on the screen
 - Shows how the signal **changes over time**
 - Used to measure **period** and **frequency**
 - Adjusted using the **Time/Div** knob
 
-### 1.0.1. Vertical (Amplitude)
+#### 1.0.1. Vertical (Amplitude)
 - Controls the **voltage scale** of the waveform
 - Shows the **signal amplitude** (height of the waveform)
 - Used to measure **peak-to-peak voltage (Vpp)**
@@ -97,39 +97,103 @@ As an electronics engineering (ECE) student, the oscilloscope is one of the most
 
 </details>
 
-## Part 2 :
-### 2.1 Block Diagram
+## Part 2 : Introduction to Emona Trainer 101 (ETT-101)
+The Emona Telecoms-Trainer 101 (ETT-101) is an educational communication system platform designed to demonstrate the practical implementation of analog and digital communication concepts. It allows students to build, observe, and analyze real communication systems using modular blocks such as signal sources, modulators, filters, and demodulators.
+
+### 2.0 Block Diagram
 <details>
 <summary> View Part 2 Setups</summary>
 
 ![Part2_2 1setupa](https://github.com/user-attachments/assets/c66ac1aa-8fc7-42bd-8d5a-0ff228330367)
-![Part2_2 1diagram](https://github.com/user-attachments/assets/eb801087-258f-4196-b5a9-7fa7abe2f3f9)
-![Part2_2 1setupb](https://github.com/user-attachments/assets/d1a161a3-fb7d-497a-8582-ddf2c0213263)
-![Part2_2 1setupspeechmodule](https://github.com/user-attachments/assets/17c45637-ea0f-40b5-a313-bff8aa364813)
-![Part2_2 1setupmodulebuffer](https://github.com/user-attachments/assets/4ad25815-9e9f-4700-aae4-e8563cd0897d)
-![Part2_2 1buffermodulediagram](https://github.com/user-attachments/assets/820d89b6-4d85-455c-9c75-71077d59b0c2)
-![Part2_2 2setupaddermodule](https://github.com/user-attachments/assets/59a4d590-4fa4-4ec7-8e34-27ad1d60085e)
-![Part2_2 2adderdiagram](https://github.com/user-attachments/assets/db6edcb8-35fa-4be0-bec8-992b9221c0be)
-![Part2_2 2setupPhaseshiftermodule](https://github.com/user-attachments/assets/d8691616-9516-4922-8a05-cb0e1ccb8712)
-![Part2_2 2Phaseshifterdiagram](https://github.com/user-attachments/assets/ad92efb9-43e6-4440-898b-fa50242cb241)
+<p align="center">
+  <em>Figure 2.0.0: 2kHz sinewave setup.</em>
+</p>
 
+![Part2_2 1diagram](https://github.com/user-attachments/assets/eb801087-258f-4196-b5a9-7fa7abe2f3f9)
+<p align="center">
+  <em>Figure 2.0.1: 2kHz sinewave block diagram.</em>
+</p>
+
+![Part2_2 1setupb](https://github.com/user-attachments/assets/d1a161a3-fb7d-497a-8582-ddf2c0213263)
+<p align="center">
+  <em>Figure 2.0.2: 100kHz sine & cosine wave setup.</em>
+</p>
+
+![Part2_2 1setupspeechmodule](https://github.com/user-attachments/assets/17c45637-ea0f-40b5-a313-bff8aa364813)
+<p align="center">
+  <em>Figure 2.0.3: speech module setup.</em>
+</p>
+
+![Part2_2 1setupmodulebuffer](https://github.com/user-attachments/assets/4ad25815-9e9f-4700-aae4-e8563cd0897d)
+<p align="center">
+  <em>Figure 2.0.4: Buffer module setup.</em>
+</p>
+
+![Part2_2 1buffermodulediagram](https://github.com/user-attachments/assets/820d89b6-4d85-455c-9c75-71077d59b0c2)
+<p align="center">
+  <em>Figure 2.0.5: Buffer module block diagram.</em>
+</p>
+
+![Part2_2 2setupaddermodule](https://github.com/user-attachments/assets/59a4d590-4fa4-4ec7-8e34-27ad1d60085e)
+<p align="center">
+  <em>Figure 2.0.6: Adder module setup.</em>
+</p>
+
+![Part2_2 2adderdiagram](https://github.com/user-attachments/assets/db6edcb8-35fa-4be0-bec8-992b9221c0be)
+<p align="center">
+  <em>Figure 2.0.7: Adder module block diagram.</em>
+</p>
+
+![Part2_2 2setupPhaseshiftermodule](https://github.com/user-attachments/assets/d8691616-9516-4922-8a05-cb0e1ccb8712)
+<p align="center">
+  <em>Figure 2.0.8: Phase Shifter module setup.</em>
+</p>
+
+![Part2_2 2Phaseshifterdiagram](https://github.com/user-attachments/assets/ad92efb9-43e6-4440-898b-fa50242cb241)
+<p align="center">
+  <em>Figure 2.0.9: Phase Shifter module block diagram.</em>
+</p>
 
 </details>
 
-### 2.2 Documentation/Output
+### 2.1 Documentation/Output
 <details>
 <summary> View Part 2 Results</summary>
 
 ![Part2_resultfig3sincos](https://github.com/user-attachments/assets/b8893fb2-99a5-4d02-bea5-9c72fa624b45)
+<p align="center">
+  <em>Figure 2.1.0: Output results for Master Signal Module at 2kHz in sinewave.</em>
+</p>
+
 ![Part2_resultfig1sincos](https://github.com/user-attachments/assets/7a79141c-22b0-4ecc-a731-48e5ae5966d6)
+<p align="center">
+  <em>Figure 2.1.1: Output results for Master Signal Module at 100kHz in sine and cosine wave.</em>
+</p>
+
 ![Part2_resultfig2sincos](https://github.com/user-attachments/assets/f24a7b73-d07d-4d77-a16e-3cfa91280785)
+<p align="center">
+  <em>Figure 2.1.2: Output results for Master Signal Module at 100kHz when V/div was adjust at 5us.</em>
+</p>
+
 ![Part2_resultfig1mic](https://github.com/user-attachments/assets/f098a307-6a35-4e34-b411-e1aa6ce14469)
-![Part_2resultfig2mic](https://github.com/user-attachments/assets/1430b468-e914-47cc-86bd-875cf7394cce)
-![Part2_resultfig1buffer](https://github.com/user-attachments/assets/6162026e-0484-495a-a537-d136545f375d)
+<p align="center">
+  <em>Figure 2.1.3: Output results for Speech Module.</em>
+</p>
+
 ![Part2_resultfig2buffer](https://github.com/user-attachments/assets/833d3945-a346-4647-8db3-da04e5145a35)
+<p align="center">
+  <em>Figure 2.1.4: Output results for Buffer Module.</em>
+</p>
+
 ![Part2_fig2addert2](https://github.com/user-attachments/assets/a1259de5-7623-4417-bd5d-85ad3783724d)
-![Part2_fig3addert3](https://github.com/user-attachments/assets/3c4c1bc6-44b4-4323-a4dd-0791b8602d60)
+<p align="center">
+  <em>Figure 2.1.5: Output results for Adder Module.</em>
+</p>
+
 ![Part2_fig1phaseshift](https://github.com/user-attachments/assets/de730e47-3bfc-42dd-b763-58559c7c3923)
+<p align="center">
+  <em>Figure 2.1.6: Output results for Phase Shifter Module.</em>
+</p>
 
 </details>
 
